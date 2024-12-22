@@ -11,7 +11,9 @@
 
 ## Как пользоваться?
 
-go run D:\IDZ\Го\calc\NetCalculatorGolang\main.go
+Для запуска сервера в своей локальной сети нужно скачать файл main.go и запустить его  
+Например вот так:  
+go run ПУТЬ\ДО\СКАЧАННОГО\ФАЙЛА\main.go
 
 После запуска сервера, вы можете снова открыть консоль и воспользоваться cURL для теста:  
-'''curl -X POST -H "Content-Type: application/json" -d "{\"expression\": ВМЕСТО ЭТОГО ТЕКСТА ВЫРАЖЕНИЕ\"\"}" "http://localhost:8000/api/v1/calculate"'''
+```curl -X POST -H "Content-Type: application/json" -d "{\"expression\": ВМЕСТО ЭТОГО ТЕКСТА ВЫРАЖЕНИЕ\"\"}" "http://localhost:8000/api/v1/calculate"```
